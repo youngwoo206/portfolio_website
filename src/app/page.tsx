@@ -1,11 +1,14 @@
-import Test from "./assets/layered-peaks-test.svg";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <main>
-      <div>test</div>
-      <div className="bg-[url('./assets/layered-peaks-test.svg')] w-screen h-screen">
+      <Navbar />
+      <div className="bg-waves bg-fixed min-h-screen flex justify-center items-center">
         test
+      </div>
+      <div className="p-10 h-screen">
+        <p>about me</p>
       </div>
     </main>
   );
